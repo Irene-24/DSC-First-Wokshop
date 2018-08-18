@@ -14,16 +14,22 @@ GIT
 
 git checkout -b me
 	to go to a branch called me if it exists. If it doesn't, it'll create it and go there.
+
 explorer .
 	will open file explorer
+
 git  add 
 	adds the file we want to keep track of
+
 git status
 	tells us the condirion of files in repo.If any changes it'll report it.
 	*to add a file whose name has spaces put a (\ ) in instead of just ( ) *
+	
 git config --global user.[name] || [email] || etc
 	to view our config details such as name
 
 config --global user.name "Irene"
 	sets my name to Irene in all my cofiguration
 
+git log 
+	 Show commit logs
