@@ -1,0 +1,29 @@
+Version control reports changes in files, so that we can recall specific versions later.
+Types
+-local
+ 	 No server, just your local system.
+-centralized
+  	files will be on a coomon server available to people working on it. eg mercurial??, xpn.
+  	You can only downlad the file, no changes
+-distributed
+ 	You can download the entire file including all the previous changes/versions.
+
+-------
+GIT
+-------
+
+git checkout -b me
+	to go to a branch called me if it exists. If it doesn't, it'll create it and go there.
+explorer .
+	will open file explorer
+git  add 
+	adds the file we want to keep track of
+git status
+	tells us the condirion of files in repo.If any changes it'll report it.
+	*to add a file whose name has spaces put a (\ ) in instead of just ( ) *
+git config --global user.[name] || [email] || etc
+	to view our config details such as name
+
+config --global user.name "Irene"
+	sets my name to Irene in all my cofiguration
+
